@@ -1,0 +1,44 @@
+.orange{
+    background-color: orange;
+}
+.blue{
+    gap: 10px;
+    background-color:powderblue;
+    border: 3px solid;
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+
+}
+.yellow, .green, .orange{
+    font-size: 1.5rem;
+    padding: 5px;
+    border: 3px solid;
+}
+.yellow{
+    background-color:yellow;  
+}
+.green{
+    background-color: green;
+}
+.container{
+    display: flex;
+    gap: 8px;
+    background-color: burlywood;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+@media screen and (width <=450px) {
+    .yellow,.green {
+        display:none; 
+    }
+    .blue {
+        width: 120px;
+        padding: 18px;
+        background-color: white;
+    }
+}
+
+
